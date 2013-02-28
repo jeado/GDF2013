@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>13회 JCO Conference 발표 자료 - AngularJS 시작하세요</title>
+		<title>2013년 Google DevFest W Korea - AngularJS 시작하세요</title>
 
-		<meta name="description" content="13회 JCO Conference 발표 자료 - AngularJS 시작하세요">
+		<meta name="description" content="2013년 Google DevFest W Korea - AngularJS 시작하세요">
 		<meta name="author" content="JEADO KO">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -15,10 +15,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/jco.css" id="theme">
+		<link rel="stylesheet" href="css/theme/gdf2013.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -41,21 +45,21 @@
 					</p>
 				</section>
 
-				<section data-state="normal">
+				<section>
 					<h2>고재도</h2>
 					<p>
 						Java & JavaScript Framework 개발자이며 지식 공유를 통해 늘 끊임없이 배우고자 노력합니다. 
 					</p>
 					<p style="padding-bottom: 10px;">
 						<ul>
-							<li>대우정보시스템 프레임워크 센터</li>
-							<small>Java&JavaScript Framework R&D</small>
 							<li>Korea AngularJS User Group 운영자</li>
 							<small>http://www.angularjs.co.kr/</small>
 							<li>Korea Sencha User Group 활동</li>
 							<small>마이크로스프트웨어 잡지 연재 및 ExtJS 그룹 활동</small>
 							<li>Undefine:D 커뮤니티 운영진</li>
 							<small>http://www.facebook.com/groups/html5jsstudy/</small>
+							<li>대우정보시스템 프레임워크 센터(2010-2013)</li>
+							<small>Java&JavaScript Framework R&D</small>
 						</ul>
 					</p>
 					<p style="padding-top: 10px;">
@@ -64,7 +68,7 @@
 					</p>
 				</section>
 
-				<section data-state="normal">
+				<section>
 					<section>
 						<h2>우리가 만들고자 하는 것</h2>
 						<p>What is our target?</p>
@@ -87,14 +91,14 @@
 					</section>
 				</section>
 
-				<section data-state="normal">
+				<section>
 					<section>
 						<h3>웹 어플리케이션 개발 시 고려할 점</h3>
 						<img src="img/3-1.png" alt="Web Applicaiton개발시 고려할 점">
 					</section>	
 				</section>
 
-				<section data-state="normal">
+				<section>
 					<section>
 						<h3>다양한 JavaScript Frameworks</h3>
 						<img src="img/4-1.png" alt="JavaScript Frameworks">
@@ -106,7 +110,7 @@
 					</section>
 				</section>
 
-				<section data-state="normal">
+				<section>
 					<h3>An overview of AngularJS</h3>
 					<br>
 					<p>Google이 만든 웹 어플리케이션을 위한 <br> Structural Framework</p>
@@ -129,7 +133,7 @@
 						어플리케이션 개발의 단순화
 					</p>
 				</section>
-				<section data-state="normal">
+				<section>
 					<section>
 						<h2>양방향 데이터 바인딩</h2>
 					</section>
@@ -155,7 +159,7 @@
 						<p>ng-app, ng-model, ng-click</p>
 					</section>
 				</section>
-				<section data-state="normal">
+				<section>
 					<section>
 						<h3>간단한 CRUD 웹 어플리케이션</h3>
 						<h3>개발을 통하여 세부 기능 파악</h3>
@@ -165,7 +169,7 @@
 						<img src="img/7.png" alt="User Mnge DEMO Image">
 					</section>
 				</section>
-				<section data-state="normal">
+				<section>
 					<h3>{{ expression }}</h3>
 					<br>
 					<h4 style="text-align:left;">예제</h4>
@@ -192,7 +196,7 @@
 					</div>
 					<p>Angular가 제대로 실행 되지 않을 경우 브라우저에 {{ 표현식 }}이 그대로 보이게 된다.</p>				
 				</section>
-				<section data-state="normal">
+				<section>
 					<section>
 						<h2>MVC 구조</h2>
 					</section>
@@ -220,7 +224,7 @@
 					</section>
 				</section>
 
-				<section data-state="normal">
+				<section>
 					<section>
 						<h2>Directive</h2>
 					</section>
@@ -249,7 +253,7 @@
 					</section>
 				</section>
 
-				<section data-state="normal">
+				<section>
 					<section>
 						<h2>Module</h2>
 						<img src="img/10-1.png" alt="module">
@@ -276,7 +280,7 @@ userModule.factory("unicorn",function(){
 						<pre style="font-size:33px;"><code>var userModule = angular.module('userMnge',['ngResource',...]);</code></pre>
 					</section>
 				</section>
-				<section data-state="normal">
+				<section>
 					<section>
 						<h3>Testing 그리고 Angular</h3>
 					</section>
@@ -302,7 +306,7 @@ userModule.factory("unicorn",function(){
 						<h2>Testing DEMO</h2>
 					</section>
 				</section>				
-				<section data-state="normal">
+				<section>
 					<section>
 						<h2>의존관계 주입</h2>
 						<small>Dependency Injection</small>
@@ -343,7 +347,7 @@ userModule.factory("unicorn",function(){
 						<img src="img/11-4.png" alt="">
 					</section>
 				</section>
-				<section data-state="normal">
+				<section>
 					<h3>유용한 레퍼런스 사이트</h3>
 					<ul>
 						<li style="font-size: 30px;">AngularJS 공식 블로그 : http://blog.angularjs.org/</li>
@@ -354,17 +358,17 @@ userModule.factory("unicorn",function(){
 						<li style="font-size: 30px;">추천 블로그 : http://deansofer.com/blog</li>
 					</ul>
 				</section>
-				<section data-state="normal">
+				<section>
 					<h2>발표 자료</h2>
 					<br>
 					<h4>
-					https://github.com/haibane84/JCO-Presentation
+					https://github.com/haibane84/GDF2013
 					</h4>
 					<h4>
 					https://github.com/haibane84/JCO-AngularJS
 					</h4>
 				</section>
-				<section data-state="normal">
+				<section>
 					<h1>QnA</h1>
 					<h3>감사합니다.</h3>
 				</section>

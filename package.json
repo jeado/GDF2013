@@ -1,7 +1,7 @@
 {
-	"name": "JCO-Conference-AnguarJS",
+	"name": "2013-GDF-W-AnguarJS",
 	"version": "0.0.1",
-	"description": "제 13회 JCO컨퍼런스 AngularJS 발표자료.",
+	"description": "2013년 Google DevFest W Korea 발표자료.",
 	"author": {
 		"name": "Jeado Ko",
 		"email": "haibane84@gmail.com"
